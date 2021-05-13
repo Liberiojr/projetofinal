@@ -1,0 +1,21 @@
+body {
+    background-image: url("back.png");
+  }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #528af7;
+  }
+
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    padding: 10px;
+    color:white;
+    font-size: 18px;
+  }
