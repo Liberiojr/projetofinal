@@ -10,6 +10,7 @@ body {
 	background-size: cover;
 	background-position: center center;
 	position: relative;
+	background-attachment: fixed
 }
 .wrapper {
 	width: 1170px;
@@ -22,14 +23,20 @@ body {
 }
 .nav-area li {
 	display: inline-block;
+    justify-content: center;
+    align-items: center;
 }
 .nav-area li a {
-	color: #fff;
-	text-decoration: none;
 	padding: 5px 20px;
 	font-family: poppins;
 	font-size: 16px;
 	text-transform: uppercase;
+	list-style: none;
+    margin-left: 20px;
+	text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
 }
 .nav-area li a:hover {
 	background: #fff;
@@ -97,3 +104,18 @@ marquee{
   color:white
 }
 
+img{
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+section{
+	padding: 50px;
+    display: flex;
+    justify-content: center;
+	flex-wrap:wrap;
+}
+
+div{
+	padding: 20px;
+}
