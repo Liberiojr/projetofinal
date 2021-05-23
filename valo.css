@@ -67,3 +67,17 @@ div{
 	font-size: 16px;
 }
 
+p.mapa{
+	padding: 55px;
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	font-weight: bold;
+	text-shadow:  0 0 0.2em #F87, 0 0 0.2em #F87 ;
+}
+
+p.Nome{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}

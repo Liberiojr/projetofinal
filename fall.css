@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+	background:  url(./fotos/fall/backfall.png);
+    position: relative;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	background-attachment: fixed;
+    background-size: 512px 512px
+}
+
+.wrapper {
+	width: 1170px;
+	margin: auto;
+}
+.nav-area {
+	float: left;
+	list-style: none;
+	margin-top: 30px;
+}
+.nav-area li {
+	display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.nav-area li a {
+	padding: 5px 20px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+	list-style: none;
+    margin-left: 20px;
+	text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+.nav-area li a:hover {
+	background: #fff;
+	color: #333;
+}
+
+
+section{
+	padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+	flex-wrap:wrap;
+	align-items: center;
+}
+
+embed{
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 8%;
+}
+
+p.mapa{
+	padding: 55px;
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	font-weight: bold;
+	text-shadow:  0 0 0.2em #F87, 0 0 0.2em #F87 ;
+}
+
+p.Nome{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+div.texto{
+	color: white;
+    position: relative;
+    border-radius: 10px;
+    border: 4px solid rgb(255, 255, 255);
+    background: rgb(54, 166, 255);
+    padding: 1rem 1rem 1rem;
+    text-shadow: rgb(0 0 0 / 45%) -1px 2px 2px, rgb(0 0 0 / 75%) 0px 0px 1px;
+    max-width: 500px;
+    left: 2rem;
+}
+
