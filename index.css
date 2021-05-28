@@ -55,7 +55,6 @@ img{
     border-radius: 3%;
 }
 section{
-	padding: 50px;
     display: flex;
     justify-content:space-around;
 	flex-wrap:wrap;
@@ -63,4 +62,10 @@ section{
 
 div{
 	padding: 20px;
+}
+
+h1{
+color: white;
+padding: 35px;
+text-align: center;
 }
